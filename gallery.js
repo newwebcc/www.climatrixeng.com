@@ -19,3 +19,4 @@ galleryItems.forEach(img=>{
 // Lightbox close
 closeBtn.addEventListener('click',()=>{ lightbox.classList.remove('show'); });
 window.addEventListener('click',e=>{ if(e.target===lightbox){ lightbox.classList.remove('show'); } });
+
